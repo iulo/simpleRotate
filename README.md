@@ -11,8 +11,7 @@ var play = new Rotate({
             // endAngle: 7600 //终止角度
             // resetAngle: , //重置角度
             callback: function(data){
-                clicked = false;
-                // alert(data.id);
+                alert(data.id);
             }
         });
 ```
